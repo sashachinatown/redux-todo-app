@@ -214,13 +214,13 @@ class ToDoElem extends React.Component {
             />
             <div className='md:ml-auto md:mt-0 mt-6 flex flex-row items-center'>
                 <img 
-                    src='../assets/pending.svg' 
+                    src='https://sashachinatown.github.io/redux-todo-app/assets/pending.svg' 
                     alt="pending"
                     onClick={() => this.props.changeStatus(this.props.task.id, 'pending')}
                     className="w-[20px] h-[20px]"
                 />
                 <img 
-                    src='../assets/completed.svg'
+                    src='https://sashachinatown.github.io/redux-todo-app/assets/completed.svg'
                     alt="completed"
                     onClick={() => this.props.changeStatus(this.props.task.id, 'completed')}
                     className="w-[20px] h-[20px]"

@@ -9,6 +9,26 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./index.html":
+/*!********************!*\
+  !*** ./index.html ***!
+  \********************/
+/***/ (function() {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> <!DOCTYPE html>\\n| <html lang=\\\"en\\\">\\n|   <head>\");\n\n//# sourceURL=webpack://redux-todo-app/./index.html?");
+
+/***/ }),
+
+/***/ "./list.png":
+/*!******************!*\
+  !*** ./list.png ***!
+  \******************/
+/***/ (function() {
+
+eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack://redux-todo-app/./list.png?");
+
+/***/ }),
+
 /***/ "./app/actions.jsx":
 /*!*************************!*\
   !*** ./app/actions.jsx ***!
@@ -705,7 +725,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./app/app.jsx");
+/******/ 	__webpack_require__("./app/app.jsx");
+/******/ 	__webpack_require__("./index.html");
+/******/ 	var __webpack_exports__ = __webpack_require__("./list.png");
 /******/ 	
 /******/ })()
 ;
